@@ -1,0 +1,91 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 81}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{161, 128}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "6BA67304-2DBB-41C7-BF1A-00F7B17F6D4E",
+          "class" : "Button",
+          "name" : "calculate_button_touch_up_inside",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 0}, {194, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "diameter",
+          "frame" : "{{126, 128}, {150, 32}}",
+          "uuid" : "49ADB272-60F1-4776-BAC3-4C491FD41E06",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter pizza diameter",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 121}, {200, 52}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "answer_label",
+          "editable" : true,
+          "frame" : "{{101, 44}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "2B7531B5-E302-4654-B747-912378EAF67D",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 40}, {208, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "diameter_textbox",
+          "frame" : "{{101, 128}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "29E39159-ED5E-4CCF-9ECE-653095A8F343",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {401, 287}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
